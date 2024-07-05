@@ -64,7 +64,7 @@ body > * {
 }
 
 main, header, nav, article, aside, footer, section {
-  background-color: rgba(0,255,0,0.5);
+  background-color: rgba(0, 255, 0, 0.5);
   padding: 1%;
 }
 
@@ -106,19 +106,12 @@ nav a, nav span {
   text-transform: uppercase;
   text-decoration: none;
   color: black;
-
 }
 
 /* || main layout */
 
-/* original main style
-main {
-  display: flex;
-} 
- */
-
 article, section {
-  flex: 4;
+  flex: 3;
 }
 
 aside {
@@ -140,12 +133,17 @@ footer {
   margin-top: 10px;
 }
 
-/* HK additions */
+/* Container layout */
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Ensuring proper flex layout for main content and sidebar */
 main {
   display: flex;
   flex-direction: row;
-  flex: 3;
 }
 
 main > article {
@@ -155,11 +153,3 @@ main > article {
 main > aside {
   flex: 1;
 }
-
-.flex-container {
-  background-color: rgba(0, 255, 0, 0.5); padding: 1%;
-  padding: 1%;
-  display: flex;
-  flex-wrap: wrap;
-}
-

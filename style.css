@@ -58,11 +58,10 @@ header {
   display: flex;
   flex-flow: row wrap;
   margin: 0;
-  width: 100%;
   padding: 10px 0;
   text-align: center; 
 }
-}
+
 
 body > * {
   padding: 1%;

@@ -60,7 +60,6 @@ header {
 }
 
 body > * {
-  background-color: red;
   padding: 1%;
 }
 
@@ -145,6 +144,8 @@ footer {
 /* HK additions */
 
 main {
+  display: flex;
+  flex-direction: row;
   flex: 3;
 }
 

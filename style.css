@@ -148,6 +148,14 @@ main {
   flex: 3;
 }
 
+main > article {
+  flex: 3;
+}
+
+main > aside {
+  flex: 1;
+}
+
 .flex-container {
   background-color: rgba(0, 255, 0, 0.5); padding: 1%;
   padding: 1%;

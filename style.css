@@ -156,8 +156,9 @@ main {
 .flex-container {
   max-width: 10px;
   background-color: rgba(0, 255, 0, 0.5); padding: 1%;
-  padding: 1%;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 

@@ -148,6 +148,7 @@ footer {
 /* HK additions */
 
 main {
+  margin-top: 10px;
   flex: 3;
 }
 

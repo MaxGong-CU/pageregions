@@ -149,6 +149,7 @@ footer {
 main {
   margin-top: 10px;
   flex: 3;
+  padding: 1%;
 }
 
 .flex-container {

@@ -64,7 +64,7 @@ body > * {
 }
 
 main, header, nav, article, aside, footer, section {
-  background-color: rgba(0, 255, 0, 0.5);
+  background-color: rgba(0,255,0,0.5);
   padding: 1%;
 }
 
@@ -106,12 +106,19 @@ nav a, nav span {
   text-transform: uppercase;
   text-decoration: none;
   color: black;
+
 }
 
 /* || main layout */
 
+/* original main style
+main {
+  display: flex;
+} 
+ */
+
 article, section {
-  flex: 3;
+  flex: 4;
 }
 
 aside {
@@ -122,7 +129,8 @@ aside {
 
 aside a {
   display: block;
-  width: 100%;
+  float: left;
+  width: 50%;
 }
 
 aside img {
@@ -133,23 +141,16 @@ footer {
   margin-top: 10px;
 }
 
-/* Container layout */
+/* HK additions */
+
+main {
+  flex: 3;
+}
 
 .flex-container {
+  background-color: rgba(0, 255, 0, 0.5); padding: 1%;
+  padding: 1%;
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Ensuring proper flex layout for main content and sidebar */
-main {
-  display: flex;
-  flex-direction: row;
-}
-
-main > article {
-  flex: 3;
-}
-
-main > aside {
-  flex: 1;
-}
